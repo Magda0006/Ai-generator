@@ -1,42 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI recepies generator</title>
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <header>
-      <h1>Ai Recepies Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          required
-          placeholder="Type the main ingredient"
-          autofocus
-        />
-        <input type="submit" />
-      </form>
-    </main>
-    <div>
-      Spaghetti 320 g Guanciale 150 g Tuorli (di uova medie) 6 Pecorino Romano
-      DOP 50 g Pepe nero q.b.
+    <div class="container">
+      <header>
+        <h1>Ai Recepies Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            required
+            placeholder="Type the main ingredient"
+            autofocus
+            class="prompt"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+      </main>
+      <div class="recepie">
+        Spaghetti 320 g Guanciale 150 g Tuorli (di uova medie) 6 Pecorino Romano
+        DOP 50 g Pepe nero q.b.
+      </div>
+      <footer>
+        This Ai project was coded by
+        <a href="https://github.com/Magda0006" target="_blank">Magda Tudora</a>
+        it is open-sourced on
+        <a href="https://github.com/Magda0006/Ai-generator" target="_blank"
+          >GitHub</a
+        >
+        and is hosted on
+        <a href="https://magdas-ai-generator.netlify.app/" target="_blank"
+          >Netlify</a
+        >.
+      </footer>
     </div>
-    <footer>
-      This Ai project was coded by
-      <a href="https://github.com/Magda0006" target="_blank">Magda Tudora</a>
-      it is open-sourced on
-      <a href="https://github.com/Magda0006/Ai-generator" target="_blank"
-        >GitHub</a
-      >
-      and is hosted on
-      <a href="https://magdas-ai-generator.netlify.app/" target="_blank"
-        >Netlify</a
-      >.
-    </footer>
     <script src="src/script.js"></script>
   </body>
 </html>

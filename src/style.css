@@ -1,0 +1,66 @@
+body {
+  background-color: #60771894;
+  font-family: "Source Code Pro", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.container {
+  border-radius: 5px;
+  margin: 120px auto;
+  max-width: 600px;
+  padding: 20px;
+}
+header {
+  margin-bottom: 30px;
+}
+h1 {
+  text-align: center;
+  line-height: 1.5;
+  color: #694400;
+  font-size: 45px;
+}
+main {
+}
+form {
+  padding: 30px;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  background-color: #f4e7aa;
+  border-radius: 5px;
+  display: flex;
+  margin-bottom: 30px;
+}
+.prompt {
+  color: #1e0f03;
+  border: #69440062 1px solid;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.183);
+  width: 80%;
+  padding: 25px;
+  font-size: 16px;
+}
+.submit-button {
+  margin-left: 10px;
+  font-size: 16px;
+  background-color: #db6115cd;
+  color: #ffd64ffa;
+  border: #69440062 1px solid;
+  border-radius: 10px;
+  width: 150px;
+}
+.recepie {
+  padding: 20px;
+  font-size: 14px;
+  background-color: #f4e7aa;
+  padding: 20px;
+  line-height: 2.5;
+  border-left: 3px solid#db6115cd;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+}
+footer {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 13px;
+}
+a {
+  color: #ba0a07c2;
+}
