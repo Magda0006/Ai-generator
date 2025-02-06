@@ -20,19 +20,22 @@
         <h1>Ai Recepies Generator</h1>
       </header>
       <main>
-        <form id="recepie-generator-form">
-          <input
-            type="text"
-            required
-            placeholder="Type the main ingredient"
-            autofocus
-            class="prompt"
-            id="main-ingredient"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
+        <div class="formContainer">
+          <form id="recepie-generator-form">
+            <input
+              type="text"
+              required
+              placeholder="Type the main ingredient"
+              autofocus
+              class="prompt"
+              id="main-ingredient"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e: "Due carote", "Cime di rapa"</div>
+        </div>
       </main>
-      <div class="recepie" id="recepie"></div>
+      <div class="recepie hidden" id="recepie"></div>
       <footer>
         This Ai project was coded by
         <a href="https://github.com/Magda0006" target="_blank">Magda Tudora</a>
