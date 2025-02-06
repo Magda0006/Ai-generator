@@ -21,13 +21,21 @@ h1 {
 }
 main {
 }
-form {
-  padding: 30px;
+.formContainer {
+  padding: 15px 20px;
+  padding-top: 25px;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
   background-color: #f4e7aa;
   border-radius: 5px;
-  display: flex;
   margin-bottom: 30px;
+}
+form {
+  display: flex;
+}
+.hint {
+  padding-top: 7px;
+  font-size: 12px;
+  opacity: 0.6;
 }
 .prompt {
   color: #1e0f03;
@@ -55,6 +63,17 @@ form {
   line-height: 2.5;
   border-left: 3px solid#db6115cd;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+}
+.hidden {
+  display: none;
+}
+.blink {
+  animation: blinker 1s cubic-bezier(0.5, 0, 1, 1) infinite alternate;
+}
+@keyframes blinker {
+  to {
+    opacity: 0%;
+  }
 }
 footer {
   margin-top: 30px;

@@ -11,6 +11,11 @@ function generateRecepie(event) {
   event.preventDefault();
   let mainIngredient = document.querySelector("#main-ingredient").value;
   console.log(mainIngredient);
+
+  let recepieElement = document.querySelector("#recepie");
+  recepieElement.classList.remove("hidden");
+  recepieElement.innerHTML = `<div class="blink">Stiamo generando una ricetta che contenga ${mainIngredient}</div>`;
+
   let apiKey = "2td2983oa81aa7bb308858f488f7ba0c";
   let prompt = `user instructions: generate a recepie having ${mainIngredient} as the MAIN ingredient`;
   let context =
