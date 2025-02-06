@@ -10,7 +10,6 @@ function displayRecepie(response) {
 function generateRecepie(event) {
   event.preventDefault();
   let mainIngredient = document.querySelector("#main-ingredient").value;
-  console.log(mainIngredient);
 
   let recepieElement = document.querySelector("#recepie");
   recepieElement.classList.remove("hidden");
