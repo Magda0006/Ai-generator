@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,7 +19,7 @@
         <h1>Ai Recepies Generator</h1>
       </header>
       <main>
-        <form>
+        <form id="recepie-generator-form">
           <input
             type="text"
             required
@@ -29,10 +30,7 @@
           <input type="submit" class="submit-button" />
         </form>
       </main>
-      <div class="recepie">
-        Spaghetti 320 g Guanciale 150 g Tuorli (di uova medie) 6 Pecorino Romano
-        DOP 50 g Pepe nero q.b.
-      </div>
+      <div class="recepie" id="recepie"></div>
       <footer>
         This Ai project was coded by
         <a href="https://github.com/Magda0006" target="_blank">Magda Tudora</a>
